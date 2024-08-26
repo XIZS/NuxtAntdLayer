@@ -3,6 +3,6 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules:['@ant-design-vue/nuxt'],
   extends: [
-    ['github:XIZS/NuxtBaseLayer', { install:true}]
+    ['github:XIZS/NuxtBaseLayer']
   ],
 })
